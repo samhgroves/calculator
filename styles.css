@@ -1,3 +1,39 @@
+body {
+    font-family: helvetica;
+    font-size: 50px;
+}
+
 .active {
     background-color: aqua;
+}
+
+.numdisplay {
+    background-color: aqua;
+    margin: 0;
+}
+
+.numbers {
+    display: grid;
+    width: 30rem;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+button {
+    font-size: 100px;
+    font-size: helvetica;
+    width: 8rem;
+    height: 8rem;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculatorbuttons {
+    display: flex;
+    margin-right: 20rem;
 }
