@@ -1,39 +1,47 @@
 body {
-    font-family: helvetica;
-    font-size: 50px;
+  font-family: helvetica;
+  font-size: 50px;
 }
 
 .active {
-    background-color: aqua;
+  background-color: aqua;
 }
 
 .numdisplay {
-    background-color: aqua;
-    margin: 0;
+  background-color: aqua;
+  margin: 0;
+  width: 50rem;
+  margin: auto;
+}
+
+h1 {
+  text-align: right;
+  margin: 3rem;
 }
 
 .numbers {
-    display: grid;
-    width: 30rem;
-    margin: auto;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+  display: grid;
+  width: 30rem;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 button {
-    font-size: 100px;
-    font-size: helvetica;
-    width: 8rem;
-    height: 8rem;
+  font-size: 100px;
+  font-size: helvetica;
+  width: 8rem;
+  height: 8rem;
 }
 
 .operators {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin-left: -30rem;
 }
 
 .calculatorbuttons {
-    display: flex;
-    margin-right: 20rem;
+  display: flex;
+  margin-right: 20rem;
 }
