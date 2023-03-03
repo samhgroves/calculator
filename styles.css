@@ -3,13 +3,20 @@ body {
   font-size: 50px;
 }
 
+.calculator {
+  background-color: blue;
+  width: 50rem;
+  margin: auto;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
 .active {
   background-color: aqua;
 }
 
 .numdisplay {
   background-color: aqua;
-  margin: 0;
   width: 50rem;
   margin: auto;
 }
@@ -38,10 +45,10 @@ button {
 .operators {
   display: flex;
   flex-direction: column;
-  margin-left: -30rem;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
 }
 
 .calculatorbuttons {
   display: flex;
-  margin-right: 20rem;
 }
